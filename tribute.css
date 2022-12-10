@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    
+    background-image: url(../nasty.jpg);
+    background-repeat: repeat-x;
+    background-position: 100px 0px;
+    width: 1360px;
+    height: 660px;
+    border-bottom: 2px solid slategray;
+}
+
+.container ul{
+    color: white;
+    text-align: right;
+   
+}
+
+.container ul li{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container ul li:hover{
+    background-color: mediumpurple;
+    color: yellow;
+    cursor: pointer;
+}
+
+.label{
+    position: relative;
+    color: white;
+    display: block;
+    width: 300px;
+    text-align: right;
+    font-size: xx-large;
+    font-style:oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+}
+
+.center-text1{
+    position: relative;
+    top:26%;
+    left: 55%;
+    color: white;
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.center-text2{
+    position: relative;
+    top:30%;
+    left: 60%;
+    color: white;
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+#page-2{
+    
+    background-image: url(../nastty.jpg);
+    background-size:670px;
+    background-repeat:no-repeat;
+    background-position: 100px 0px;
+    background-blend-mode:difference;
+    width: 1360px;
+    height: 660px;
+   
+}
+
+.description {
+    position: relative;
+    border: 2px solid black;
+    max-width: 600px;
+    max-height: 500px;
+    top:26%;
+    left: 55%;
+    font-size: x-large;
+    background-color: tan;
+    opacity: 0.9;
+}
+
+.description p{
+    color: white;
+}
+
+.page-3{
+    width: 1360px;
+    height: 660px;
+    background-image: url(../nasty-closeup.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 100px ;
+    background-blend-mode:screen;
+    background-size: contain;
+    position: relative;
+    
+}
+
+.imgg {
+    max-width: 50%;
+    max-height: 50%;  
+    position: absolute;  
+}
+
+.imgg3{
+    left:55%;
+    top: 15px;    
+    border: 1px solid white;
+    
+}
+
+.imgg2{
+    left:55%;
+    top: 15px;    
+    animation-name: pic;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes pic{
+    from{
+
+    }to{
+        transform: translateX(300px);
+    }
+}
+
+
+
+
+.descrip-music{
+    position: absolute;
+    color: white;
+   
+    max-width: 50%;
+    max-height: 50%;  
+    left: 50%;
+    top: 63%;
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.link{
+    position: absolute;
+    text-decoration: none;
+    left: 50%;
+    top: 140%;
+}
+
+#page-4{
+    width: 1360px;
+    height: 660px;
+    background-color: black;
+    position: relative;
+}
+
+#page-4 h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 3%;
+    
+}
+
+.card{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    left: 2%;
+  
+    
+}
+
+.card1{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    right: 2%;
+    
+}
+
+.card2{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    right: 35%;
+    
+    
+}
+
+
+.card .img, .card1 .img, .card2 .img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.card .img img, .card1 .img img, .card2 .img img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.card h1, .card1 h1, .card2 h1{
+    color: white;
+    text-align: center;
+    top: 0px;
+}
+#page-4 .card h1, #page-4 .card1 h1, #page-4 .card2 h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 1%;
+    
+}
+
+
+
+.card .descrip-card, .card1 .descrip-card, .card2 .descrip-card{
+    color: white;
+    text-align: center;
+}
+
+.card .img:hover, .card1 .img:hover, .card2 .img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card .img:visited, .card1 .img:visited, .card2 .img:visited{
+    border: 1px solid red;
+}
+
+#page-5{
+        width: 1360px;
+        height: 660px;
+        background-color: black;
+        position: relative;
+}
+
+#page-5 h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 3%;
+    
+}
+#page-5 .tape h1, #page-5 .tape1 h1, #page-5 .tape2 h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 1%;
+    
+}
+
+#page-5 .tape .descrip-card, .tape1 .descrip-card, .tape2 .descrip-card{
+    color: white;
+    text-align: center;
+}
+
+.tape{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    left: 2%;
+}
+
+.tape1{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    right: 2%;
+}
+
+.tape2{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    top: 13%;
+    right: 35%;
+}
+
+
+.tape .img, .tape1 .img, .tape2 .img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.tape .img img, .tape1 .img img, .tape2 .img img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.tape .img:hover, .tape1 .img:hover, .tape2 .img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.tape .img:visited, .tape1 .img:visited, .tape2 .img:visited{
+    border: 1px solid red;
+}
+
+
